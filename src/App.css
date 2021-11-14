@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.App-header {
+  background-color: rgba(0, 0, 0, 0.904);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:  #ffffff;
+  margin-bottom:50px;
+}
+
+input[type=text]{
+  max-width: 700px;
+  width: 50vw;
+  height: 55px;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin:2px;
+  border: 6px solid black;
+  padding-left: 8px;
+  color: #282c34;
+}
+
+.datacontainer{
+  border: 3px solid rgb(99, 92, 92);
+  width: 48vw;
+  padding: 5px;
+  margin: 20px;
+  overflow: visible;
+  text-align: left;
+}
+.dataitem{
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  margin: 5px;
+}
+.searchButton{
+  margin:5px;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: larger;
+  cursor:pointer;
+}
